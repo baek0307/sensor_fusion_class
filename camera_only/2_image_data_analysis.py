@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Path to the image file
-image_path = '/home/ubuntu/Desktop/object_detection/infer_data/images/image_02/data/0000000000.png'
+image_path = '/home/ubuntu/Desktop/sensor_fusion/infer_data/images/image_02/data/0000000000.png'
 
 # Load the image
 image = cv2.imread(image_path)

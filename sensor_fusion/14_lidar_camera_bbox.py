@@ -8,7 +8,7 @@ from sklearn.cluster import DBSCAN
 from ultralytics import YOLO
 
 # YOLOv8 설정
-model = YOLO('/home/ubuntu/Desktop/object_detection/camera_only/yolov8n.pt')
+model = YOLO('/home/ubuntu/Desktop/sensor_fusion/camera_only/yolov8n.pt')
 
 DATA_PATH = r'2011_09_26/2011_09_26_drive_0106_sync'
 left_image_paths = sorted(glob(os.path.join(DATA_PATH, 'image_02/data/*.png')))

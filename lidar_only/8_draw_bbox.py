@@ -4,7 +4,7 @@ import hdbscan
 import matplotlib.pyplot as plt
 
 # PCD 파일 경로 설정
-pcd_path = "/home/ubuntu/Desktop/object_detection/lidar_only/pcd/0000000001.pcd"
+pcd_path = "/home/ubuntu/Desktop/sensor_fusion/lidar_only/pcd/0000000001.pcd"
 
 # PCD 파일 읽기
 original_pcd = o3d.io.read_point_cloud(pcd_path)

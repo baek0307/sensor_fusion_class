@@ -2,7 +2,7 @@ import cv2
 import os
 
 # Path to the image directory
-image_dir = '/home/ubuntu/Desktop/object_detection/infer_data/images/image_02/data/'
+image_dir = '/home/ubuntu/Desktop/sensor_fusion/infer_data/images/image_02/data/'
 
 # Output video file name
 output_video = 'save_video.mp4'

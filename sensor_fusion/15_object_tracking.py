@@ -9,10 +9,10 @@ from ultralytics.utils.plotting import Annotator, colors
 track_history = defaultdict(lambda: [])
 
 # YOLO 모델 로드 (객체 탐지 전용)
-model = YOLO("/home/ubuntu/Desktop/object_detection/camera_only/yolov8n.pt")
+model = YOLO("/home/ubuntu/Desktop/sensor_fusion/camera_only/yolov8n.pt")
 
 # 비디오 파일 열기
-cap = cv2.VideoCapture("/home/ubuntu/Desktop/object_detection/sensor_fusion/test_video.mp4")
+cap = cv2.VideoCapture("/home/ubuntu/Desktop/sensor_fusion/sensor_fusion/test_video.mp4")
 
 # 비디오 속성 가져오기: 너비, 높이, 프레임당 재생 시간(초당 프레임 수)
 w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FRAME_HEIGHT, cv2.CAP_PROP_FPS))

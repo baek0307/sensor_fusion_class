@@ -23,8 +23,8 @@ def bin_to_pcd(bin_file_path, pcd_file_path):
 
 if __name__ == "__main__":
     # 변환할 파일의 경로 설정
-    src_folder = "/home/ubuntu/Desktop/object_detection/test_data/lidar"  # .bin 파일들이 있는 디렉토리 경로
-    dest_folder = "/home/ubuntu/Desktop/object_detection/lidar_only/pcd/"  # 변환된 .pcd 파일을 저장할 디렉토리 경로
+    src_folder = "/home/ubuntu/Desktop/sensor_fusion/test_data/lidar"  # .bin 파일들이 있는 디렉토리 경로
+    dest_folder = "/home/ubuntu/Desktop/sensor_fusion/lidar_only/pcd/"  # 변환된 .pcd 파일을 저장할 디렉토리 경로
 
     # 목적 디렉토리가 없으면 생성
     if not os.path.exists(dest_folder):

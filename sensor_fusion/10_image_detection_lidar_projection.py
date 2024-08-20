@@ -8,7 +8,7 @@ from sklearn import linear_model
 from ultralytics import YOLO
 
 # YOLOv8 설정
-model = YOLO('/home/ubuntu/Desktop/object_detection/camera_only/yolov8n.pt')  # YOLOv8 모델 로드
+model = YOLO('/home/ubuntu/Desktop/sensor_fusion/camera_only/yolov8n.pt')  # YOLOv8 모델 로드
 
 DATA_PATH = r'2011_09_26/2011_09_26_drive_0106_sync'
 

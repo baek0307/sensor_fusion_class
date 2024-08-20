@@ -1,7 +1,7 @@
 import cv2
 
 # Path to the image file
-image_path = '/home/ubuntu/Desktop/object_detection/infer_data/images/image_02/data/0000000000.png'
+image_path = '/home/ubuntu/Desktop/sensor_fusion/infer_data/images/image_02/data/0000000000.png'
 
 # Load the image in grayscale
 image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
